@@ -1,0 +1,47 @@
+.container {
+  height: 100%;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d2226;
+  margin-bottom: 28px;
+}
+
+.radioGroup {
+  margin-top: 6px;
+}
+
+.radioGroup p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.radioGroup span {
+  color: red;
+}
+
+.radioOptions {
+  display: flex;
+  gap: 24px;
+}
+
+.radioOptions label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.radioOptions input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+
+.buttonWrapper {
+  margin-top: auto;
+}

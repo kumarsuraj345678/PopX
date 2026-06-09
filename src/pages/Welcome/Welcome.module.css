@@ -1,0 +1,22 @@
+.content {
+  position: absolute;
+  bottom: 36px;
+  left: 0;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.content h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d2226;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.content p {
+  color: #6c757d;
+  font-size: 18px;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
